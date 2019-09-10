@@ -1,0 +1,105 @@
+.curriculum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.curriculum__stage-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #E0E0E0;
+  padding-bottom: 8px;
+}
+
+.stage__title {
+  height: 64px;
+  background: #c4c4c4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.stage-section__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 52px;
+  background: #F3F2F2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.stage-section__title-icon {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.stage-section__item {
+  background: #D4D2D2;
+  width: calc( 100% - 32px);
+  margin: 4px 0 0 16px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.stage-section__item-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.stage-section__item-desc {
+  margin-left: 16px;
+}
+
+.stage-section__item-button {
+  background: #76A5FF;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 24px;
+  width: 87px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 12px 0 0 16px;
+}
+
+.lesson {
+  max-width: 710px;
+  width: 100%;
+  background: #c4c4c4;
+}
+
+.lesson__video {
+  width: 100%;
+  width: 100%;
+}
+
+.lesson__article {
+  padding: 16px 0;
+}
+/*# sourceMappingURL=style.css.map */
